@@ -1,0 +1,124 @@
+.game{
+width: 600px;
+  height: 200px;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
+
+#dino{
+  position: relative;
+  top: 150px;
+}
+
+.dino__img{
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+#cactus{
+  animation: cactusMov 1.5s infinite linear;
+  position: relative;
+  top: 110px;
+  left: 580px;
+}
+.cactus__img{
+  width: 40px;
+  height: 40px;
+  background-size: 20px 40px;
+
+
+}
+
+@keyframes cactusMov {
+  0%{
+    left: 580px;
+  }
+100%{
+left: -20px;
+   }
+
+}
+
+.jump{
+  animation:jump 1s linear ;
+}
+@keyframes jump {
+  0%{
+    top: 150px;
+  }
+  30%{
+    top: 30px;
+  }
+  50%{
+    top: 80px;
+  }
+  80%{
+    top: 130px;
+
+  }
+  100%{
+    top: 150px;
+  }
+}
+
+
+.container{
+  width: 1140px;
+
+}
+
+.game {
+  margin-left: 655px;
+  width: 460px;
+}
+@media (max-width: 1100px) {
+  .game {
+    margin-left: 659px;
+    width: 454px;
+  }
+}
+@media (max-width: 992px) {
+  .game{
+    margin-left: 571px;
+    width: 549px;
+  }
+}
+@media (max-width: 820px) {
+  .game{
+    margin-left: 528px;
+  }
+}
+@media (max-width: 700px) {
+  .game{
+    margin-left: 290px;
+  }
+}
+@media (max-width: 600px) {
+  .game{
+    margin-left: 388px;
+  }
+}
+@media (max-width: 520px) {
+  .game{
+    margin-left: 337px;
+  }
+}
+@media (max-width: 414px) {
+  .game{
+    margin-left: 275px;
+  }
+}
+@media (max-width: 375px) {
+  .game{
+    margin-left: 43px;
+  }
+}
+@media (max-width: 320px) {
+  .game{
+    margin-left: 62px;
+  }
+}
+
+
